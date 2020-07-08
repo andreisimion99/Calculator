@@ -1,0 +1,8 @@
+  The purpose of the homework is to write a calculator that takes its input from the command line parameters. The calculator will support the following operations: absolute, addition, division, help, maximum, minimum, modulo, multiply, power, reverse, sort, sqrt, subtraction, unique, sinus, cosinus.
+
+  To solve this homework I used Visual Studio Code (editor, compiler and terminal).
+  First, I made a new directory, in which I opened a new file, with the help of the above program. I saved it as a Java Script file, and then created the "package.json" file using the Visual Studio Code terminal. I entered in it all the necessary data. Then, I imported the "cowsay" library to display the logo later.
+  Next, we started solving the requirements, taking over the arguments of a command using process.argv and removing the first two elements from it (the two addresses not being necessary).
+  We then checked the number of elements in the process.argv and associated with a variable the value of the last element, this representing the name of the operation (+, -, etc.).
+  To solve each operation, we used a switch structure, assigning a case to each operation, by checking the variable mentioned above. At the end of it, in case of "default", the error display for the unidentified command is present.
+  In each "case" are found both the solutions of each operation, as well as the errors in case the number of terms does not correspond to the rules in the requirement.
